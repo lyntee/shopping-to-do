@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.inputs {
+  margin: 20px;
+}
+
+.list {
+  width: 40%;
+  align-self: center;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  padding: 0 10px 0 10px;
+}
+
+.list-item:hover {
+  border: 1px solid black;
+}
+
+.strike-out {
+  text-decoration: line-through;
+}

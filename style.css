@@ -2,27 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .card {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
+  text-align: center; */
+  margin-top: 100px;
+  border: 1px solid rgb(155, 152, 152);
+  border-radius: 10px;
   text-align: center;
-  padding-top: 100px;
+  padding: 10px 0 20px 0;
 }
 
-.inputs {
-  margin: 20px;
+h2 {
+  margin: 20px 0 20px 0;
 }
 
 .list {
-  width: 40%;
-  align-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 .list-item {
+  text-align: center;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -33,7 +42,11 @@
 }
 
 .list-item:hover {
-  border: 1px solid black;
+  outline: 1px solid black;
+}
+
+.item-name:hover {
+  cursor: pointer;
 }
 
 .strike-out {
